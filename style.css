@@ -1,0 +1,24 @@
+body {
+    background-color: black;
+}
+
+/*Este div faz com que o div ocupe metade da largura da página, adicionando 25% de margem à esquerda ou direita, centra o div */
+div {
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 100px;
+    text-align: center;
+    font-family: "Josefin Sans", serif; 
+    color: white;
+}
+/*Adicionando largura de 100% faz com que o gimli ocupe 100% da largura de onde está colocado, no caso é dentro do div*/
+#gimli {
+    width: 100%;
+    border: 5px solid white;
+}
+
+h1 {
+    /*https://developer.mozilla.org/en-US/docs/Web/CSS/text-transform*/
+    text-transform: uppercase;
+    font-size: 3em;
+}
